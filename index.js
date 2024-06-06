@@ -4,7 +4,7 @@ require("dotenv").config();
 const mongoose = require("mongoose");
 
 // Connect to MongoDB
- mongoose.connect('process.env.MONGO_URL', {
+ mongoose.connect('mongodb+srv://anki:IqFyaMV5RdRvg12M@courses.d91kxe8.mongodb.net/DataBase', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
