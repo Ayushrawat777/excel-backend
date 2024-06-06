@@ -4,7 +4,7 @@ require("dotenv").config();
 const mongoose = require("mongoose");
 
 // Connect to MongoDB
- mongoose.connect('mongodb://localhost:27017/practice', {
+ mongoose.connect('process.env.MONGO_URL', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
